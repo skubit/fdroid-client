@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:card_view="http://schemas.android.com/apk/res-auto"
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/purchase_activity_frame"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:minHeight="@dimen/dialog_height"
+             android:minWidth="@dimen/dialog_width"
+             android:padding="10dp">
+    <android.support.v7.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            card_view:cardCornerRadius="4dp"
+            card_view:contentPadding="16dp">
+
+        <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+                android:id="@+id/progress_bar"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:background="#1E88E5"
+                android:visibility="invisible"/>
+
+        <FrameLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

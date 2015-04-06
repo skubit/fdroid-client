@@ -1,0 +1,14 @@
+{
+    "syntaxVersion":"3",
+    "projectPackageId": "com.skubit.market",
+    "authority": "com.skubit.market.provider",
+    "providerJavaPackage": "com.skubit.market.provider",
+    "providerClassName": "MarketProvider",
+    "sqliteOpenHelperClassName": "MarketSQLiteOpenHelper",
+    "sqliteOpenHelperCallbacksClassName": "MarketSQLiteOpenHelperCallbacks",
+    "sqliteUpgradeHelperClassName": "MarketSQLiteUpgradeHelper",
+    "databaseFileName": "market.db",
+     "databaseVersion": 1,
+    "enableForeignKeys": true,
+    "useAnnotations": false
+}

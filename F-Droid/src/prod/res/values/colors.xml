@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#00BCD4</color>
+    <color name="secondary_color">#B2EBF2</color><!--100-->
+    <color name="primary_button_color">#006064</color><!--900-->
+    <color name="secondary_button_color">#80DEEA</color><!--200-->
+    <color name="selected_nav">#E0F7FA</color><!--50-->
+    <color name="nav_header">#4DD0E1</color><!--300-->
+</resources>

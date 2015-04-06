@@ -1,0 +1,1 @@
+java -jar providergen/android_contentprovider_generator-1.9.0-bundle.jar -i providergen/input -o src/main/java

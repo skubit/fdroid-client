@@ -1,0 +1,17 @@
+{
+    "fields": [
+        {
+            "name": "bitId",
+            "type": "String",
+            "index": true
+        },
+        {
+            "name": "token",
+            "type": "String"
+        },
+        {
+            "name": "date",
+            "type": "Long"
+        }
+        ]
+}
